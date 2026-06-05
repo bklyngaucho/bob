@@ -37,15 +37,22 @@ Welcome to your comprehensive Visual Studio Code training program! This curricul
 - [Best Practices](./module-6-productivity/02-best-practices.md)
 - [Workflow Optimization](./module-6-productivity/03-workflow-tips.md)
 
+### Module 7: Bob AI Assistant (90 minutes) 🤖
+- [Introduction to Bob](./module-7-bob-ai-assistant/01-introduction-to-bob.md)
+- [Mastering Bob's Modes](./module-7-bob-ai-assistant/02-mastering-modes.md)
+- [Agentic Workflows](./module-7-bob-ai-assistant/03-agentic-workflows.md)
+- [Bob Sample Projects](./module-7-bob-ai-assistant/04-bob-sample-projects.md)
+
 ## 🎯 Learning Path
 
-**Total Time: ~3 hours**
+**Total Time: ~4.5 hours**
 
 1. Start with Module 1 to understand the basics
 2. Progress through Modules 2-3 for essential skills
 3. Explore Module 4 to customize your environment
 4. Advance to Module 5 for powerful features
 5. Review Module 6 for productivity enhancement
+6. Master Module 7 to work effectively with Bob AI
 
 ## 📝 Practice Exercises
 
