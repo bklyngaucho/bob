@@ -1,0 +1,47 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Application",
+      "type": "shell",
+      "command": "node src/index.js",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    },
+    {
+      "label": "Run Tests",
+      "type": "shell",
+      "command": "node tests/calculator.test.js",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    },
+    {
+      "label": "Open HTML in Browser",
+      "type": "shell",
+      "command": "open index.html",
+      "windows": {
+        "command": "start index.html"
+      },
+      "linux": {
+        "command": "xdg-open index.html"
+      },
+      "presentation": {
+        "reveal": "never"
+      }
+    }
+  ]
+}
+
+// Made with Bob

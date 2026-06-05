@@ -1,0 +1,23 @@
+{
+  "name": "vscode-training-sample",
+  "version": "1.0.0",
+  "description": "Sample project for VS Code training exercises",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Running tests...\" && node tests/calculator.test.js",
+    "dev": "nodemon src/index.js",
+    "format": "echo \"Format code with Prettier extension\"",
+    "lint": "echo \"Lint code with ESLint extension\""
+  },
+  "keywords": [
+    "vscode",
+    "training",
+    "tutorial",
+    "learning"
+  ],
+  "author": "VS Code Training",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}

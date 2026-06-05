@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS Code Training - Sample Project</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- Practice: Use Emmet abbreviations -->
+    <!-- Try: div.container>header+main+footer -->
+    <!-- Try: ul>li*5>a -->
+    
+    <div class="container">
+        <header class="header">
+            <h1>VS Code Training Sample</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section id="home" class="section">
+                <h2>Welcome to VS Code Training</h2>
+                <p>This is a sample HTML file for practicing VS Code features.</p>
+                
+                <!-- Practice: Use Live Server extension to preview -->
+                <!-- Practice: Use Auto Rename Tag extension -->
+                
+                <div class="card">
+                    <h3>Getting Started</h3>
+                    <p>Learn the basics of VS Code navigation and editing.</p>
+                    <button class="btn btn-primary">Learn More</button>
+                </div>
+
+                <div class="card">
+                    <h3>Advanced Features</h3>
+                    <p>Master debugging, Git integration, and more.</p>
+                    <button class="btn btn-primary">Explore</button>
+                </div>
+
+                <div class="card">
+                    <h3>Productivity Tips</h3>
+                    <p>Boost your workflow with shortcuts and best practices.</p>
+                    <button class="btn btn-primary">Discover</button>
+                </div>
+            </section>
+
+            <section id="features" class="section">
+                <h2>Key Features</h2>
+                
+                <!-- Practice: Use multi-cursor to edit all list items -->
+                <!-- Practice: Use Cmd+D to select next occurrence -->
+                
+                <ul class="features-list">
+                    <li>IntelliSense code completion</li>
+                    <li>Built-in Git integration</li>
+                    <li>Powerful debugging tools</li>
+                    <li>Extensive extension marketplace</li>
+                    <li>Customizable themes and settings</li>
+                </ul>
+            </section>
+
+            <section id="contact" class="section">
+                <h2>Contact Form</h2>
+                
+                <!-- Practice: Use Emmet to create form quickly -->
+                <!-- Try: form>input:text+input:email+textarea+button -->
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2024 VS Code Training. All rights reserved.</p>
+            <p>Practice: Use Shift+Option+F to format this document</p>
+        </footer>
+    </div>
+
+    <!-- Practice: Use Live Server to see changes in real-time -->
+    <!-- Practice: Use Cmd+/ to toggle comments -->
+    
+    <script>
+        // Practice: Set breakpoint here and debug in browser
+        console.log('VS Code Training Sample loaded');
+        
+        // Practice: Use multi-cursor to add event listeners
+        document.querySelectorAll('.btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                console.log('Button clicked:', e.target.textContent);
+            });
+        });
+        
+        // Practice: Debug this form submission
+        document.querySelector('.contact-form')?.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            console.log('Form submitted:', Object.fromEntries(formData));
+            alert('Form submitted! Check console for details.');
+        });
+    </script>
+</body>
+</html>
