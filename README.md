@@ -56,7 +56,15 @@ Welcome to your comprehensive Visual Studio Code training program! This curricul
 
 ## 📝 Practice Exercises
 
-Each module includes hands-on exercises in the `exercises/` folder to reinforce learning.
+Each module includes hands-on exercises in the [`exercises/`](./exercises/) folder to reinforce learning.
+
+## 🧪 Knowledge Check
+
+Test your understanding with [quizzes](./quizzes/) after each module:
+- 3-5 questions per module
+- Multiple choice format
+- Instant feedback with explanations
+- Track your progress across all modules
 
 ## 🚀 Quick Start
 
@@ -64,11 +72,13 @@ If you're completely new to VS Code:
 1. Start with [Module 1: Introduction](./module-1-getting-started/01-introduction.md)
 2. Keep this README open as your roadmap
 3. Complete exercises as you progress
-4. Refer to the cheatsheet for quick reference
+4. Take the quiz after each module
+5. Refer to the cheatsheet for quick reference
 
 ## 💡 Tips for Success
 
 - **Practice regularly**: Use VS Code daily to build muscle memory
+- **Test your knowledge**: Take quizzes to reinforce learning
 - **Experiment**: Don't be afraid to try features and explore
 - **Customize gradually**: Start with defaults, customize as you learn your preferences
 - **Use keyboard shortcuts**: They dramatically improve efficiency
